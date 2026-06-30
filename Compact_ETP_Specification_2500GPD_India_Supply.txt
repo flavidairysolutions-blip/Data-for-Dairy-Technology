@@ -1,0 +1,351 @@
+==============================================================
+  COMPACT ETP — TECHNICAL SPECIFICATION SHEET
+  Combined Dairy + Snacks Plant | 2,000–2,500 GPD
+  Designed for India Manufacture & Export to Illinois, USA
+  Prepared by: Flavi Dairy Solutions | June 2026
+==============================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. PROJECT OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Application         : Combined Dairy + Snacks Wastewater
+End-Use Location    : Illinois, USA (POTW/Sewer Discharge)
+Design Flow         : 2,500 GPD (Peak) / 2,000 GPD (Average)
+                    = 9,500 LPD (Peak) / 7,570 LPD (Average)
+Operating Hours     : 8–16 hr/day (shift-based)
+Supply Origin       : India (Manufactured & Exported)
+Compliance Target   : IEPA Pretreatment Standards + Local POTW limits
+Discharge Route     : Municipal Sewer (POTW) — NOT direct NPDES
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. DESIGN INLET PARAMETERS (WORST CASE)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Parameter           | Dairy Input  | Snacks Input | Combined Design Basis
+--------------------|--------------|--------------|----------------------
+BOD                 | 3,000 mg/L   | 2,500 mg/L   | 3,000 mg/L
+COD                 | 6,000 mg/L   | 4,500 mg/L   | 6,000 mg/L
+TSS                 | 1,000 mg/L   | 700 mg/L     | 1,000 mg/L
+FOG                 | 600 mg/L     | 500 mg/L     | 600 mg/L
+pH                  | 4–11         | 5–9          | 4–11 (design)
+TKN                 | 100 mg/L     | 60 mg/L      | 100 mg/L
+Temperature         | 35–45°C      | 30–40°C      | 45°C max
+Flow Rate           | 1,200 GPD    | 1,300 GPD    | 2,500 GPD combined
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. TARGET OUTLET PARAMETERS (POTW COMPLIANCE — IL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Parameter           | Target Effluent (POTW Discharge)
+--------------------|----------------------------------
+BOD                 | ≤ 250 mg/L
+COD                 | ≤ 500 mg/L
+TSS                 | ≤ 250 mg/L
+FOG                 | ≤ 100 mg/L
+pH                  | 6.0 – 9.0
+Temperature         | ≤ 40°C
+Sulphides           | ≤ 1 mg/L
+Note: Final limits as per local IL POTW permit. Tighter
+limits may apply — verify with local authority.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. SYSTEM DESIGN — TREATMENT TRAIN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+UNIT 1 — INLET SCREENING CHAMBER
+----------------------------------
+Type                : Manual Bar Screen + Basket Strainer
+Screen Opening      : 6 mm bar screen + 2 mm basket
+Material            : SS 304 (for USA food plant environment)
+Purpose             : Remove food solids, packaging debris, rags
+Dimensions          : 600 mm W x 800 mm L x 900 mm D
+Mounting            : In-ground concrete chamber (site civil)
+Cleaning            : Manual, daily
+India Supply Note   : SS 304 fabricated channel with removable screen
+
+UNIT 2 — UNDERGROUND GREASE TRAP
+----------------------------------
+Type                : Passive Gravity Grease Interceptor
+Capacity            : 1,500 gallons (5,680 litres)
+                      (Sized for 1-day peak FOG load + safety factor)
+Material            : HDPE or FRP (corrosion-resistant, lightweight for shipping)
+Dimensions (approx) : 2,400 mm L x 1,200 mm W x 1,500 mm D
+Inlet/Outlet        : 4" ANSI flanged (to match US plumbing standards)
+Baffles             : 2 internal baffles — SS 304
+Venting             : 2" vent pipe connection (site-provided)
+Access              : 2 x 24" manhole covers (HDPE)
+FOG Removal         : 85–90%
+Pumping Frequency   : Once per week by licensed IL grease hauler
+Certifications      : PDI G-101 standard compliance recommended
+India Supply Note   : FRP tank preferred for export (lighter, cheaper shipping)
+                      HDPE also acceptable. Avoid concrete (too heavy for export)
+
+UNIT 3 — EQUALIZATION + pH NEUTRALIZATION TANK
+------------------------------------------------
+Capacity            : 7,500 litres (2,000 gallons) — ~1 day storage
+                      Provides flow & load equalization
+Type                : Above-ground skid-mounted tank
+Material            : FRP or PE (UV stabilized)
+Shape               : Vertical cylindrical with conical bottom
+Dimensions (approx) : Dia 1,800 mm x Height 3,000 mm
+Mixing              : 1 x 0.75 kW submersible mixer (SS 304 shaft)
+pH Control System   :
+  - Online pH sensor: 2 x pH probe (Hach/equivalent) with transmitter
+  - Acid dosing pump: 0.5 LPH diaphragm metering pump (HCl or Citric acid)
+  - Alkali dosing pump: 0.5 LPH diaphragm metering pump (NaOH)
+  - Dosing tanks: 2 x 100L HDPE tanks with level indicators
+  - pH controller: PLC-based or standalone pH controller
+Level Control       : Float switch (high/low) + ultrasonic level sensor
+Transfer Pump       : 1 x 0.75 kW SS centrifugal pump (duty) +
+                      1 x 0.75 kW (standby) — ANSI/NPT flanges
+India Supply Note   : Tank from Sintex / Supreme / Vectus or custom FRP.
+                      Pumps from Kirloskar/Grundfos India.
+                      pH probes: Hach India or equivalent.
+
+UNIT 4 — MICRO DAF UNIT (DISSOLVED AIR FLOTATION)
+---------------------------------------------------
+Design Flow         : 5–7 GPM (19–26 LPM) continuous
+Type                : Compact skid-mounted micro-DAF
+Vessel Material     : SS 304 (inner surfaces) / MS with epoxy (outer)
+Vessel Dimensions   : 1,200 mm L x 800 mm W x 1,500 mm H
+Operating Pressure  : 4–6 bar (recycle pressure)
+Recycle Ratio       : 30–50% of treated flow
+Air Dissolving Tube : Stainless steel, 4 bar rated
+FOG Removal         : 85–90%
+TSS Removal         : 70–80%
+BOD Reduction       : 35–45%
+Chemical Dosing     :
+  - Coagulant: Alum (Aluminium Sulphate) — 50–200 mg/L dose
+    Dosing pump: 1 LPH diaphragm type
+    Dosing tank: 100L HDPE
+  - Polymer (flocculant): Polyacrylamide — 2–5 mg/L dose
+    Dosing pump: 0.5 LPH diaphragm type
+    Dosing tank: 50L HDPE
+Float Sludge        : Collected in 500L sludge holding tank (HDPE)
+                      Pumped out 2x/week to licensed waste hauler
+Effluent Outlet     : 2" NPT (US standard) flanged connection
+Electrical          : 120/240V 60Hz (US standard) — specify at order
+Motor               : 0.75 kW recycle pump + air compressor (0.37 kW)
+Skid                : MS epoxy-painted skid, 1,500 x 1,000 mm footprint
+India Supply Note   : Several Indian vendors make compact DAF:
+                      - Thermax (Pune)
+                      - Ion Exchange (Mumbai)
+                      - WPL India / Enviro Concept
+                      - Custom fabrication by any SS fabricator in Rajkot/Ahmedabad
+                      KEY: Must specify 120V/60Hz motors for USA
+                      Or supply bare skid + Indian motors, rewire in USA
+
+UNIT 5 — AEROBIC BIOTREATMENT (PACKAGED SBR / CONTACT AERATION)
+-----------------------------------------------------------------
+Type                : Packaged Contact Aeration + Settling
+                      (Simpler than SBR for this scale; suitable for India export)
+Design Volume       : 7,500 litres (aeration) + 2,500 litres (clarifier)
+HRT (Aeration)      : ~18–24 hours
+Tank Material       : FRP (GRP) or HDPE
+Aeration System     : Fine bubble diffusers (EPDM membrane disc)
+Blower              : 1 x 0.75 kW regenerative blower (oil-free)
+                      + 1 x 0.75 kW standby
+DO Target           : 2–3 mg/L in aeration zone
+MLSS Target         : 2,000–3,000 mg/L
+BOD Removal         : 85–92%
+COD Removal         : 80–88%
+Sludge Return       : Air-lift return from clarifier to aeration
+                      (No pump required — simple air-lift design)
+Clarifier           : Integrated tube settler / inclined plate settler
+                      SS 304 tube modules
+Effluent Quality    : BOD < 50 mg/L, TSS < 50 mg/L (post-aeration)
+Sludge Wasting      : Weekly pump-out to sludge holding tank
+India Supply Note   : Biotreatment tank from FRP fabricator (Ahmedabad/Rajkot)
+                      Blower from Everest Blowers / Robuschi India
+                      Diffusers from SSI Aeration / Enviro Synergies India
+
+UNIT 6 — EFFLUENT MONITORING + DISCHARGE UNIT
+-----------------------------------------------
+Type                : Online monitoring panel + sample port
+Parameters Monitored: pH, Flow (totalizer), Temperature
+pH Sensor           : Submersible probe with 4–20 mA output
+Flow Meter          : Magnetic flow meter (2") — US NPT flanged
+                      (Required by most IL POTWs for permit compliance)
+Totalizer           : Electronic, with pulse output for data logging
+Sample Port         : 2" ball valve with sample cock (for grab sampling)
+Discharge Connection: 4" ANSI flanged (to connect to building drain/sewer)
+Panel               : NEMA 4X enclosure (IP66) — for US indoor/outdoor use
+                      120V/60Hz power (USA standard)
+India Supply Note   : Flow meter from Krohne India / Endress+Hauser India
+                      Panel: Fabricate in India; specify NEMA 4X + UL-listed components
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. SLUDGE MANAGEMENT SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sludge Sources      : DAF float sludge + Biological waste sludge
+Sludge Volume       : ~200–400 litres/day (estimated)
+Sludge Holding Tank : 1,500 litre HDPE tank with level sensor
+Sludge Transfer     : 0.37 kW SS centrifugal pump
+Disposal Method     : Licensed industrial waste hauler (Illinois)
+                      OR portable sludge dewatering bag (geotextile)
+                      for small volume dewatering on-site
+Sludge Quality      : Non-hazardous food processing sludge
+                      (confirm TCLP test before disposal classification)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. ELECTRICAL & CONTROL SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Power Supply (USA)  : 120V/60Hz single phase OR 208/240V/60Hz 3-phase
+                      ⚠️ CRITICAL: All motors/panels must be wound/rated
+                      for USA 60Hz supply. India standard is 50Hz.
+Control Panel       : NEMA 4X SS enclosure
+                      PLC: Siemens S7-1200 or Allen Bradley Micro820
+                      (Both available in India, USA-compatible)
+Automation Level    : Semi-automatic
+                      - Auto pH dosing
+                      - Auto blower on/off (timer + DO sensor)
+                      - High level alarm on all tanks
+                      - Low level pump protection
+                      - Remote monitoring: GSM/4G modem (optional)
+                        for remote visibility from India
+HMI                 : 7" touchscreen HMI (Siemens/Delta — India supply)
+Certifications      : UL 508A panel listing REQUIRED for USA
+                      (Get panel UL-listed in India or use UL-listed
+                       components throughout — consult UL India office)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. PHYSICAL LAYOUT & SHIPPING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Overall System Footprint:
+  - EQ Tank + Aeration: ~4m x 3m (outdoors, above ground)
+  - DAF Skid: 1.5m x 1m
+  - Control Panel: Wall-mounted (inside building)
+  - Grease Trap: Underground (site civil work, USA side)
+
+Skidding for Export:
+  - DAF unit: Single MS skid, fork-liftable
+  - EQ + Aeration tanks: Separate units, bolted connections on-site
+  - All piping: Flanged ANSI connections (not threaded) for easy assembly
+
+Packaging for Sea Freight (India → USA):
+  - 20' FCL container sufficient for full system
+  - Estimated gross weight: 3,000–4,500 kg
+  - Grease trap (FRP): ~250 kg — can fit in same container
+  - Proper sea-worthy wooden crating + moisture protection
+
+Estimated Shipping Route:
+  - Origin: Mundra/JNPT/Chennai port (India)
+  - Destination: Chicago (via Port of Chicago / Detroit)
+  - Transit time: 25–35 days (sea freight)
+  - Incoterms: CIF Chicago or FOB Indian port
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. INDIA SUPPLY — KEY COMPLIANCE POINTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ All motors: 60Hz, NEMA frame (not IEC) — specify explicitly
+✅ All electrical enclosures: NEMA 4X (not IP66 only — US requirement)
+✅ Control panel: UL 508A listed (mandatory for USA)
+✅ All pipe connections: ANSI/ASME flanges (150# rating) — not DIN
+✅ All pressure gauges: PSI (not bar) — for US operators
+✅ Material certificates: Mill test certificates for all SS material
+✅ FAT (Factory Acceptance Test): Conduct at India facility before shipping
+✅ Documentation: Operation & Maintenance Manual in English
+✅ Spare parts kit: 1-year critical spares packed with system
+✅ NSF/ANSI 61 compliance: For any components in contact with water
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. BILL OF MATERIALS (INDICATIVE)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#  | Item                              | Qty | Material    | India Vendor Category
+---|-----------------------------------|-----|-------------|----------------------
+1  | Bar Screen + Basket Strainer      | 1   | SS 304      | SS Fabricator (Rajkot/Ahmedabad)
+2  | Grease Trap (1,500 gal)           | 1   | FRP/HDPE    | FRP Tank Mfr (Ahmedabad)
+3  | EQ Tank (7,500 L)                 | 1   | FRP/PE      | Sintex / FRP Mfr
+4  | Submersible Mixer (0.75 kW)       | 1   | SS 304      | Flygt India / Grundfos
+5  | pH Sensor + Transmitter           | 2   | -           | Hach India / E+H India
+6  | Acid Dosing Pump (0.5 LPH)        | 1   | PP/PVDF     | SEKO / ProMinent India
+7  | Alkali Dosing Pump (0.5 LPH)      | 1   | PP/PVDF     | SEKO / ProMinent India
+8  | Dosing Tanks (100L)               | 2   | HDPE        | Local HDPE supplier
+9  | Transfer Pump (0.75 kW)           | 2   | SS 304      | Kirloskar / KSB India
+10 | Micro-DAF Unit (5 GPM skid)       | 1   | SS 304/MS   | Thermax / Ion Exchange / Custom
+11 | Coagulant Dosing Pump             | 1   | PP          | ProMinent / SEKO India
+12 | Polymer Dosing Pump               | 1   | PP          | ProMinent / SEKO India
+13 | DAF Recycle Pump (0.75 kW)        | 1   | SS 304      | Kirloskar / Grundfos
+14 | Air Compressor (0.37 kW)          | 1   | CI/MS       | Atlas Copco India / Elgi
+15 | Aeration Tank (7,500 L)           | 1   | FRP         | FRP Fabricator
+16 | Fine Bubble Diffusers             | 8   | EPDM        | SSI / Enviro Synergies
+17 | Regenerative Blower (0.75 kW)     | 2   | CI          | Everest Blowers India
+18 | Clarifier with Tube Settler       | 1   | FRP+SS304   | FRP Fabricator + SS Tubes
+19 | Sludge Holding Tank (1,500 L)     | 1   | HDPE        | Sintex / local
+20 | Sludge Pump (0.37 kW)             | 1   | SS 304      | Kirloskar India
+21 | Magnetic Flow Meter (2")          | 1   | SS 304      | Krohne India / E+H India
+22 | Control Panel (PLC + HMI)         | 1   | SS/NEMA4X   | Panel Fabricator (UL-listed components)
+23 | Online pH Monitor (discharge)     | 1   | -           | Hach India
+24 | Interconnecting Piping (CPVC/SS)  | LS  | CPVC/SS304  | Local
+25 | Electrical Cables + Cable Tray    | LS  | -           | Local
+26 | Skid Frames (MS epoxy)            | 2   | MS          | Local fabricator
+27 | Spares Kit (1 year)               | 1   | Various     | With equipment supply
+28 | O&M Manual + P&ID + Drawings      | 1   | -           | Supplier scope
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+10. ESTIMATED COST (INDIA SUPPLY)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Equipment Cost (Ex-Works India)  : INR 25–35 Lakhs (~$30,000–$42,000 USD)
+Sea Freight (India to Chicago)   : INR 2.5–4 Lakhs (~$3,000–$5,000 USD)
+US Customs + Duties              : ~3–5% of equipment value
+Installation (USA side)          : $5,000–$12,000 USD (local contractor)
+Commissioning (travel + support) : $3,000–$6,000 USD
+Civil Work (grease trap pit etc) : $3,000–$8,000 USD (USA side)
+                                  ─────────────────────────────────
+TOTAL ESTIMATED LANDED COST      : $45,000–$75,000 USD
+                                   (vs $150K–$250K if bought in USA)
+
+India Supply Advantage           : ~40–55% COST SAVING vs US purchase
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+11. PROJECT TIMELINE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Activity                          | Duration
+----------------------------------|----------
+Vendor finalization + PO          | 2 weeks
+Engineering + Drawings            | 3 weeks
+Procurement of components         | 4 weeks
+Fabrication + Assembly            | 6 weeks
+Factory Acceptance Test (FAT)     | 1 week
+Packing + Documentation           | 1 week
+Sea Freight (India → Chicago)     | 5 weeks
+Customs Clearance (USA)           | 1–2 weeks
+Installation + Commissioning      | 2 weeks
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TOTAL PROJECT TIMELINE            : ~25–27 WEEKS (6 months)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+12. RECOMMENDED INDIA VENDORS TO APPROACH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+For ETP Package Supply (turnkey):
+  1. Thermax Ltd, Pune — www.thermaxglobal.com
+     (Strong ETP + export experience)
+  2. Ion Exchange (India) Ltd, Mumbai — www.ionindia.com
+     (Strong water treatment, export references)
+  3. Aquatech Systems (Asia) Pvt Ltd, Ahmedabad
+  4. Pureflow / Enviro Concept, Ahmedabad
+
+For FRP Tank Fabrication:
+  - Fibre Tech Industries, Ahmedabad
+  - Supreme Industries, Vadodara
+
+For SS Fabrication (DAF, screens):
+  - Rajkot / Ahmedabad SS fabrication clusters
+  - Ask for ISO 9001 certified shops with export experience
+
+For Panel (UL-Listed):
+  - Siemens India (Navi Mumbai) — can supply UL-listed panels
+  - Rittal India for enclosures
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DISCLAIMER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+This specification is indicative based on typical design parameters.
+Final design must be done by a licensed Professional Engineer (PE)
+registered in Illinois. POTW discharge limits must be confirmed with
+the local municipal authority before finalizing design.
+Export compliance: Verify HS codes, DGFT export regulations, and
+US import requirements (FDA/EPA) for food processing equipment.
+
+Prepared by: Flavi Dairy Solutions | Kirit Patel
+Indicative — verify with licensed IL PE before procurement.
+==============================================================
